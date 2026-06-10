@@ -30,7 +30,7 @@ export default function GoogleAds() {
       {/* Visual & Intro */}
       <section className="section-pad">
         <div className="container">
-          <div style={{ display:'grid', gridTemplateColumns:'1fr 1fr', gap:'60px', alignItems:'center' }} className="responsive-grid">
+          <div className="service-detail-grid">
             <ScrollReveal className="service-detail-content">
               <h2>Stop wasting budget on broad match guesswork.</h2>
               <p className="lead">
@@ -62,7 +62,7 @@ export default function GoogleAds() {
             <p>We don't just set and forget. Our team constantly monitors, tests, and refines your campaigns to lower your cost-per-acquisition.</p>
           </ScrollReveal>
           
-          <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fit, minmax(300px, 1fr))', gap:'30px' }}>
+          <div className="service-features-grid">
             <ScrollReveal delay={0}>
               <div className="service-card">
                 <div className="service-icon-wrap"><Search size={24} className="service-icon" /></div>

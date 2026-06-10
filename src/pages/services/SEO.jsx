@@ -28,7 +28,7 @@ export default function SEO() {
 
       <section className="section-pad">
         <div className="container">
-          <div style={{ display:'grid', gridTemplateColumns:'1fr 1fr', gap:'60px', alignItems:'center' }} className="responsive-grid">
+          <div className="service-detail-grid">
             <ScrollReveal className="service-detail-content">
               <h2>Rankings that actually drive revenue.</h2>
               <p className="lead">
@@ -59,7 +59,7 @@ export default function SEO() {
             <p>We treat your website as an organic growth engine, combining technical excellence with outstanding content.</p>
           </ScrollReveal>
           
-          <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fit, minmax(300px, 1fr))', gap:'30px' }}>
+          <div className="service-features-grid">
             <ScrollReveal delay={0}>
               <div className="service-card">
                 <div className="service-icon-wrap"><Settings size={24} className="service-icon" /></div>

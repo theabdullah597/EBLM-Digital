@@ -28,7 +28,7 @@ export default function ConversionOptimisation() {
 
       <section className="section-pad">
         <div className="container">
-          <div style={{ display:'grid', gridTemplateColumns:'1fr 1fr', gap:'60px', alignItems:'center' }} className="responsive-grid">
+          <div className="service-detail-grid">
             <ScrollReveal delay={1}>
               <div style={{ borderRadius:'24px', overflow:'hidden', border:'1px solid var(--line)', boxShadow:'var(--shadow-green)' }}>
                 <img src="/service_cro.png" alt="CRO Heatmap" style={{ width:'100%', height:'auto', display:'block' }} />
@@ -59,7 +59,7 @@ export default function ConversionOptimisation() {
             <p>We rely on hard data and proven psychological principles, not guesswork, to redesign your user experience.</p>
           </ScrollReveal>
           
-          <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fit, minmax(300px, 1fr))', gap:'30px' }}>
+          <div className="service-features-grid">
             <ScrollReveal delay={0}>
               <div className="service-card">
                 <div className="service-icon-wrap"><MousePointerClick size={24} className="service-icon" /></div>
