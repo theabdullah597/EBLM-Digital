@@ -1,0 +1,62 @@
+.text-green { color: var(--green); }
+
+/* Services grid — equal-height cards via stretch */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  align-items: stretch;
+}
+/* Make the reveal wrapper and service-card fill full height */
+.services-grid .reveal,
+.services-grid .reveal > .service-card {
+  height: 100%;
+}
+.service-icon { color: var(--green-dark); }
+
+/* Why grid — equal heights */
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  align-items: stretch;
+}
+.why-grid .reveal,
+.why-grid .reveal > .why-card {
+  height: 100%;
+}
+.why-card {
+  background: linear-gradient(145deg, rgba(255,255,255,.06), rgba(255,255,255,.02));
+  border: 1px solid rgba(255,255,255,.09);
+  border-radius: 20px;
+  padding: 30px;
+  transition: all .3s ease;
+}
+.why-card:hover { border-color: var(--line); transform: translateY(-4px); }
+.why-icon-wrap {
+  width: 46px; height: 46px;
+  background: rgba(56,225,28,.1);
+  border: 1px solid rgba(56,225,28,.2);
+  border-radius: 12px;
+  display: flex; align-items: center; justify-content: center;
+  margin-bottom: 18px;
+}
+.why-icon-svg { color: var(--green); }
+.why-card h3 { font-size: 20px; margin-bottom: 10px; }
+.why-card p  { color: var(--muted2); font-size: 14px; line-height: 1.7; }
+
+/* CTA */
+.page-cta { position:relative; overflow:hidden; background:linear-gradient(135deg,#050d06,#0a1a0b); text-align:center; }
+.page-cta-glow { position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); width:500px; height:300px; background:radial-gradient(ellipse,rgba(56,225,28,.2),transparent 70%); pointer-events:none; animation:pulseGlow 4s ease-in-out infinite; }
+.page-cta-inner { max-width:680px; margin:0 auto; position:relative; z-index:1; }
+.page-cta-inner h2 { font-size:clamp(28px,4vw,52px); margin-bottom:18px; }
+.page-cta-inner p  { font-size:17px; color:var(--muted2); line-height:1.75; margin-bottom:36px; }
+
+@media(max-width:1050px) {
+  .services-grid { grid-template-columns: repeat(2,1fr); }
+  .why-grid      { grid-template-columns: repeat(2,1fr); }
+}
+@media(max-width:680px) {
+  .services-grid { grid-template-columns: 1fr; }
+  .why-grid      { grid-template-columns: 1fr; }
+}

@@ -1,0 +1,33 @@
+.legal-hero p { color:var(--muted2); font-size:16px; }
+
+.legal-section .container { max-width:1200px; }
+.legal-inner { display:grid; grid-template-columns:240px 1fr; gap:60px; align-items:start; }
+
+/* Sidebar */
+.legal-nav { position:sticky; top:100px; background:var(--light-bg); border:1px solid var(--light-border); border-radius:16px; padding:24px; box-shadow:var(--shadow-light); }
+.legal-nav h4 { font-size:11px; font-weight:900; text-transform:uppercase; letter-spacing:.16em; color:var(--green-dark); margin-bottom:16px; }
+.legal-nav ul { display:grid; gap:4px; }
+.legal-nav li a { font-size:13px; color:var(--light-muted); padding:6px 10px; border-radius:6px; display:block; transition:all .3s ease; font-weight:500; }
+.legal-nav li a:hover { color:var(--green-dark); background:rgba(56,225,28,.07); }
+
+/* Content */
+.legal-intro { font-size:17px; color:var(--light-muted); line-height:1.78; padding:24px; background:#fff; border:1px solid var(--light-border); border-radius:14px; margin-bottom:36px; box-shadow:var(--shadow-light); }
+
+.legal-block { margin-bottom:42px; padding-bottom:42px; border-bottom:1px solid var(--light-border); }
+.legal-block:last-child { border-bottom:none; margin-bottom:0; padding-bottom:0; }
+.legal-block h2 { font-size:clamp(20px,2vw,26px); color:var(--light-text); margin-bottom:16px; }
+.legal-block h3 { font-size:16px; font-weight:800; color:var(--light-text); margin:18px 0 8px; }
+.legal-block p { color:var(--light-muted); line-height:1.78; margin-bottom:14px; font-size:15px; }
+.legal-block p:last-child { margin-bottom:0; }
+.legal-block ul { display:grid; gap:8px; margin:12px 0 16px 0; }
+.legal-block ul li { font-size:15px; color:var(--light-muted); padding-left:20px; position:relative; line-height:1.65; }
+.legal-block ul li::before { content:'•'; position:absolute; left:6px; color:var(--green-dark); font-weight:900; }
+.legal-block a { color:var(--green-dark); font-weight:600; text-decoration:underline; text-underline-offset:2px; }
+.legal-block a:hover { color:var(--green); }
+
+.legal-contact-box { background:#fff; border:1px solid var(--light-border); border-radius:14px; padding:22px; margin-top:16px; box-shadow:var(--shadow-light); }
+.legal-contact-box p { color:var(--light-muted); margin-bottom:8px; font-size:15px; }
+.legal-contact-box p:last-child { margin-bottom:0; }
+.legal-contact-box strong { color:var(--light-text); }
+
+@media(max-width:860px){ .legal-inner{grid-template-columns:1fr;} .legal-nav{position:static;} }
