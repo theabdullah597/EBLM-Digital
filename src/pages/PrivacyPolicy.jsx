@@ -39,7 +39,7 @@ export default function PrivacyPolicy() {
               <section id="who-we-are" className="legal-block">
                 <h2>1. Who We Are</h2>
                 <p>BLM Digital Limited is a performance marketing agency registered in England and Wales. Our registered office is at 2 ST. Peters Street, Huddersfield, England, HD1 1RA. We are the data controller for the personal information we collect through this website.</p>
-                <p>If you have any questions about this policy or how we handle your data, please contact us at <a href="mailto:privacy@blmdigital.com">privacy@blmdigital.com</a>.</p>
+                <p>If you have any questions about this policy or how we handle your data, please contact us at <a href="mailto:marketing@blmdigital.co.uk">marketing@blmdigital.co.uk</a>.</p>
               </section>
 
               <section id="information-we-collect" className="legal-block">
@@ -131,7 +131,7 @@ export default function PrivacyPolicy() {
                   <li><strong>Right to object</strong> — object to processing based on legitimate interests</li>
                   <li><strong>Right to withdraw consent</strong> — where processing is based on consent</li>
                 </ul>
-                <p>To exercise any of these rights, please contact us at <a href="mailto:privacy@blmdigital.com">privacy@blmdigital.com</a>. You also have the right to lodge a complaint with the Information Commissioner's Office (ICO) at <a href="https://ico.org.uk" target="_blank" rel="noopener noreferrer">ico.org.uk</a>.</p>
+                <p>To exercise any of these rights, please contact us at <a href="mailto:marketing@blmdigital.co.uk">marketing@blmdigital.co.uk</a>. You also have the right to lodge a complaint with the Information Commissioner's Office (ICO) at <a href="https://ico.org.uk" target="_blank" rel="noopener noreferrer">ico.org.uk</a>.</p>
               </section>
 
               <section id="data-security" className="legal-block">
@@ -154,7 +154,7 @@ export default function PrivacyPolicy() {
                 <p>If you have any questions, concerns or requests relating to this Privacy Policy, please contact us:</p>
                 <div className="legal-contact-box">
                   <p><strong>BLM Digital Limited</strong></p>
-                  <p>Email: <a href="mailto:privacy@blmdigital.com">privacy@blmdigital.com</a></p>
+                  <p>Email: <a href="mailto:marketing@blmdigital.co.uk">marketing@blmdigital.co.uk</a></p>
                   <p>Address: 2 ST. Peters Street, Huddersfield, England, HD1 1RA</p>
                 </div>
               </section>

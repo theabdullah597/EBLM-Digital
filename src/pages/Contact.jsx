@@ -71,8 +71,8 @@ export default function Contact() {
                     {
                       icon: <Mail size={22} />,
                       label: "Email",
-                      value: "hello@blmdigital.com",
-                      href: "mailto:hello@blmdigital.com",
+                      value: "marketing@blmdigital.co.uk",
+                      href: "mailto:marketing@blmdigital.co.uk",
                     },
                     {
                       icon: <MapPin size={22} />,

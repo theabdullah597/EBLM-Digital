@@ -139,7 +139,7 @@ export default function TermsAndConditions() {
                 <p>If you have any questions about these Terms and Conditions, please contact us:</p>
                 <div className="legal-contact-box">
                   <p><strong>BLM Digital Limited</strong></p>
-                  <p>Email: <a href="mailto:legal@blmdigital.com">legal@blmdigital.com</a></p>
+                  <p>Email: <a href="mailto:marketing@blmdigital.co.uk">marketing@blmdigital.co.uk</a></p>
                   <p>Address: 2 ST. Peters Street, Huddersfield, England, HD1 1RA</p>
                 </div>
               </section>

@@ -65,7 +65,7 @@ export default function Footer() {
 
               <li>
                 <Mail size={16} />
-                <a href="mailto:hello@blmdigital.com">hello@blmdigital.com</a>
+                <a href="mailto:marketing@blmdigital.co.uk">marketing@blmdigital.co.uk</a>
               </li>
               <li>
                 <MapPin size={16} />
