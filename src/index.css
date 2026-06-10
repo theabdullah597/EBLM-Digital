@@ -89,7 +89,8 @@ h3 { font-size: clamp(20px,2vw,26px); letter-spacing:-0.02em; font-weight:800; }
   letter-spacing: .08em;
   border: 1px solid transparent;
   transition: var(--transition);
-  white-space: nowrap;
+  white-space: normal;
+  text-align: center;
   position: relative;
   overflow: hidden;
   cursor: pointer;
