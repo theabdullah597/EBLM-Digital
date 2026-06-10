@@ -17,6 +17,7 @@ const services = [
     desc: "High-intent search, display and Performance Max campaigns structured to capture buyers at the exact moment they're ready to purchase. We handle everything from keyword strategy to bid optimisation and conversion tracking.",
     list: ['Search & Shopping campaigns', 'Performance Max strategies', 'Remarketing & RLSA', 'Conversion tracking setup', 'Negative keyword management', 'Ad copy testing & optimisation'],
     cta: 'Start with Google Ads',
+    path: '/services/google-ads'
   },
   {
     id: 'meta-ads',
@@ -25,6 +26,7 @@ const services = [
     desc: 'Facebook and Instagram advertising that builds awareness, drives retargeting and generates qualified leads. We create scroll-stopping creative and precision audience targeting to maximise your social budget.',
     list: ['Facebook & Instagram ads', 'Custom & Lookalike audiences', 'Lead generation campaigns', 'Creative strategy & testing', 'Catalogue & dynamic ads', 'Pixel setup & tracking'],
     cta: 'Start with Meta Ads',
+    path: '/services/meta-ads'
   },
   {
     id: 'seo',
@@ -33,6 +35,7 @@ const services = [
     desc: 'Organic visibility, technical optimisation and content strategy that reduces your long-term dependency on paid traffic. We focus on rankings that drive revenue, not vanity metrics.',
     list: ['Technical SEO audit', 'Keyword & content strategy', 'On-page & off-page optimisation', 'Local SEO for UK businesses', 'Core Web Vitals improvements', 'Monthly ranking reports'],
     cta: 'Start with SEO',
+    path: '/services/seo'
   },
   {
     id: 'cro',
@@ -41,6 +44,7 @@ const services = [
     desc: 'Landing pages, funnels and reporting improvements designed to squeeze more enquiries from your existing traffic. Turn more clicks into leads without increasing your ad spend.',
     list: ['Landing page design & testing', 'A/B & multivariate testing', 'GA4 & GTM setup', 'Funnel analysis & reporting', 'Heatmaps & session recording', 'CRO strategy workshops'],
     cta: 'Boost Conversions',
+    path: '/services/conversion-optimisation'
   },
   {
     id: 'analytics',
@@ -49,6 +53,7 @@ const services = [
     desc: "Full GA4 implementation, GTM configuration and custom dashboard setup so you always know exactly where your leads and revenue are coming from. No guesswork — only data.",
     list: ['GA4 setup & configuration', 'Google Tag Manager', 'Custom Looker Studio reports', 'Call & form tracking', 'E-commerce tracking', 'Attribution modelling'],
     cta: 'Set Up Tracking',
+    path: '/services/analytics'
   },
   {
     id: 'lead-gen',
@@ -57,6 +62,7 @@ const services = [
     desc: 'End-to-end lead generation systems combining paid ads, landing pages and CRM integration to build a consistent pipeline of qualified prospects for your sales team.',
     list: ['Multi-channel lead campaigns', 'Lead magnet strategy', 'CRM & automation setup', 'Lead quality scoring', 'Nurture sequence design', 'Pipeline reporting'],
     cta: 'Generate Leads',
+    path: '/services/lead-generation'
   },
 ]
 
@@ -105,7 +111,7 @@ export default function Services() {
                     <ul className="service-list">
                       {s.list.map(l => <li key={l}>{l}</li>)}
                     </ul>
-                    <Link to="/contact" className="service-link">
+                    <Link to={s.path} className="service-link">
                       {s.cta} <ArrowRight size={15} />
                     </Link>
                   </article>

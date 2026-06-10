@@ -38,7 +38,7 @@ export default function PrivacyPolicy() {
 
               <section id="who-we-are" className="legal-block">
                 <h2>1. Who We Are</h2>
-                <p>BLM Digital Limited is a performance marketing agency registered in England and Wales. Our registered office is in London, United Kingdom. We are the data controller for the personal information we collect through this website.</p>
+                <p>BLM Digital Limited is a performance marketing agency registered in England and Wales. Our registered office is at 2 ST. Peters Street, Huddersfield, England, HD1 1RA. We are the data controller for the personal information we collect through this website.</p>
                 <p>If you have any questions about this policy or how we handle your data, please contact us at <a href="mailto:privacy@blmdigital.com">privacy@blmdigital.com</a>.</p>
               </section>
 
@@ -155,8 +155,7 @@ export default function PrivacyPolicy() {
                 <div className="legal-contact-box">
                   <p><strong>BLM Digital Limited</strong></p>
                   <p>Email: <a href="mailto:privacy@blmdigital.com">privacy@blmdigital.com</a></p>
-                  <p>Phone: <a href="tel:+442012345678">+44 (0)20 1234 5678</a></p>
-                  <p>Address: London, United Kingdom</p>
+                  <p>Address: 2 ST. Peters Street, Huddersfield, England, HD1 1RA</p>
                 </div>
               </section>
             </article>

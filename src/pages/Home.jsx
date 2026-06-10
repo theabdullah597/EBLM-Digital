@@ -182,12 +182,12 @@ export default function Home() {
           </ScrollReveal>
           <div className="home-services-grid">
             {[
-              { Icon: Search, title:'Google Ads', desc:'High-intent search and Performance Max campaigns that capture buyers at exactly the right moment.' },
-              { Icon: Megaphone, title:'Meta Ads', desc:'Facebook and Instagram advertising for awareness, lead generation and audience growth.' },
-              { Icon: TrendingUp, title:'SEO', desc:'Organic visibility and content strategy that reduces your long-term dependency on paid traffic.' },
-              { Icon: Zap, title:'Conversion Optimisation', desc:'Landing pages and funnel improvements that turn more clicks into leads without extra spend.' },
-              { Icon: BarChart2, title:'Analytics & Tracking', desc:'Full GA4 setup and custom reporting so you always know exactly where your revenue comes from.' },
-              { Icon: Target, title:'Lead Generation', desc:'End-to-end lead systems combining paid ads, landing pages and CRM integration.' },
+              { Icon: Search, title:'Google Ads', desc:'High-intent search and Performance Max campaigns that capture buyers at exactly the right moment.', path: '/services/google-ads' },
+              { Icon: Megaphone, title:'Meta Ads', desc:'Facebook and Instagram advertising for awareness, lead generation and audience growth.', path: '/services/meta-ads' },
+              { Icon: TrendingUp, title:'SEO', desc:'Organic visibility and content strategy that reduces your long-term dependency on paid traffic.', path: '/services/seo' },
+              { Icon: Zap, title:'Conversion Optimisation', desc:'Landing pages and funnel improvements that turn more clicks into leads without extra spend.', path: '/services/conversion-optimisation' },
+              { Icon: BarChart2, title:'Analytics & Tracking', desc:'Full GA4 setup and custom reporting so you always know exactly where your revenue comes from.', path: '/services/analytics' },
+              { Icon: Target, title:'Lead Generation', desc:'End-to-end lead systems combining paid ads, landing pages and CRM integration.', path: '/services/lead-generation' },
             ].map((s,i) => {
               const { Icon } = s
               return (
@@ -195,7 +195,7 @@ export default function Home() {
                   <div className="home-svc-icon"><Icon size={32} /></div>
                   <h3>{s.title}</h3>
                   <p>{s.desc}</p>
-                  <Link to="/services" className="service-link">
+                  <Link to={s.path} className="service-link">
                     Learn more
                     <ArrowRight size={14} />
                   </Link>

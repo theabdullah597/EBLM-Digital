@@ -140,8 +140,7 @@ export default function TermsAndConditions() {
                 <div className="legal-contact-box">
                   <p><strong>BLM Digital Limited</strong></p>
                   <p>Email: <a href="mailto:legal@blmdigital.com">legal@blmdigital.com</a></p>
-                  <p>Phone: <a href="tel:+442012345678">+44 (0)20 1234 5678</a></p>
-                  <p>Address: London, United Kingdom</p>
+                  <p>Address: 2 ST. Peters Street, Huddersfield, England, HD1 1RA</p>
                 </div>
               </section>
             </article>

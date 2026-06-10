@@ -13,6 +13,12 @@ import About from './pages/About'
 import Contact from './pages/Contact'
 import PrivacyPolicy from './pages/PrivacyPolicy'
 import TermsAndConditions from './pages/TermsAndConditions'
+import GoogleAds from './pages/services/GoogleAds'
+import MetaAds from './pages/services/MetaAds'
+import SEO from './pages/services/SEO'
+import ConversionOptimisation from './pages/services/ConversionOptimisation'
+import Analytics from './pages/services/Analytics'
+import LeadGeneration from './pages/services/LeadGeneration'
 import './index.css'
 
 export default function App() {
@@ -31,6 +37,12 @@ export default function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
+        <Route path="/services/google-ads" element={<GoogleAds />} />
+        <Route path="/services/meta-ads" element={<MetaAds />} />
+        <Route path="/services/seo" element={<SEO />} />
+        <Route path="/services/conversion-optimisation" element={<ConversionOptimisation />} />
+        <Route path="/services/analytics" element={<Analytics />} />
+        <Route path="/services/lead-generation" element={<LeadGeneration />} />
       </Routes>
       <Footer />
       <BackToTop />

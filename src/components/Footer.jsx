@@ -6,8 +6,12 @@ export default function Footer() {
   const year = new Date().getFullYear()
 
   const services = [
-    'Google Ads Management', 'Meta Ads & Paid Social', 'Search Engine Optimisation',
-    'Conversion Rate Optimisation', 'Analytics & Tracking', 'Lead Generation',
+    { label: 'Google Ads Management', to: '/services/google-ads' },
+    { label: 'Meta Ads & Paid Social', to: '/services/meta-ads' },
+    { label: 'Search Engine Optimisation', to: '/services/seo' },
+    { label: 'Conversion Rate Optimisation', to: '/services/conversion-optimisation' },
+    { label: 'Analytics & Tracking', to: '/services/analytics' },
+    { label: 'Lead Generation', to: '/services/lead-generation' },
   ]
   const company = [
     { label: 'About Us',      to: '/about' },
@@ -41,7 +45,7 @@ export default function Footer() {
             <h4>Services</h4>
             <ul>
               {services.map(s => (
-                <li key={s}><Link to="/services">{s}</Link></li>
+                <li key={s.label}><Link to={s.to}>{s.label}</Link></li>
               ))}
             </ul>
           </div>
@@ -58,17 +62,14 @@ export default function Footer() {
           <div className="footer-contact-col">
             <h4>Get In Touch</h4>
             <ul className="footer-contact-list">
-              <li>
-                <Phone size={16} />
-                <a href="tel:+442012345678">+44 (0)20 1234 5678</a>
-              </li>
+
               <li>
                 <Mail size={16} />
                 <a href="mailto:hello@blmdigital.com">hello@blmdigital.com</a>
               </li>
               <li>
                 <MapPin size={16} />
-                <span>London, United Kingdom</span>
+                <span>2 ST. Peters Street, Huddersfield, HD1 1RA</span>
               </li>
             </ul>
             <Link className="btn primary footer-btn" to="/contact">
